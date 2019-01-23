@@ -114,15 +114,91 @@
                                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                                         ever since the 1500s.</p> -->
                                                 </div>
-                                                <!-- Radio Buttons -->
-                                                <div class="form-group col-md-6 mb-4">
-                                                    <small class="form-text text-muted font-weight-bold mb-2">Select Preferred Currency</small>
-                                                    <group class="inline-radio">
-                                                        <div><input type="radio" name="member"><label>Dollar Investment</label></div>
-                                                        <div><input type="radio" name="member"><label>Naira Investment</label></div>
-                                                    </group>
+
+                                                <!-- Alert -->
+                                                <div class="alert alert-primary text-light" role="alert">
+                                                   Hello Israel!, please be informed that your Sterling Bank account should be funded with N12,000.00 to proceed
                                                 </div>
-                                            </form>
+
+                                                <!-- Radio Buttons -->
+                                                <div class="row">
+                                                        <div class="form-group col-md-6 mb-4">
+                                                                <small class="form-text text-muted font-weight-bold mb-2 text-uppercase">Do you have a sterling bank account?</small>
+                                                                <group class="inline-radio">
+                                                                    <div><input type="radio" name="member" checked><label>Yes</label></div>
+                                                                    <div><input type="radio" name="member"><label>No</label></div>
+                                                                </group>                      
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-6 mb-4">
+                                                                <small class="form-text text-muted font-weight-bold mb-2 text-uppercase">Is your account funded?</small>
+                                                                <group class="inline-radio">
+                                                                    <div><input type="radio" name="member" checked><label>Yes</label></div>
+                                                                    <div><input type="radio" name="member"><label>No</label></div>
+                                                                </group>
+                                                            </div>
+                                                </div>
+
+                                                <h1 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Add a Sterling Account Number</h1>
+                                                 <!-- Alert -->
+                                                 <div class="alert alert-primary text-light " role="alert">
+                                                      <p>Is this Account funded with N12,000.00? <br/> Enter your Funding Account Number and verify</p>   
+                                                 </div>  
+                                                 
+                                                 <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Enter your Funding Account Number </h6>
+                                                 <div class="row mb-3">
+                                                        <div class="form-group col-md-6">
+                                                            <input type="text" class="input form-control form-border" id="1" required autocomplete="off">
+                                                            <label class="mb-0 form-control-placeholder" for="1">Enter your Funding Account Number</label>
+                                                            <div class="invalid-feedback"> Funding Account Number is required</div>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Verify</button>
+
+                                                    <div>
+                                                            <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Fund Your Sterling Account </h6>
+                                                            <div class="row mb-3">
+                                                                   <div class="form-group col-md-6">
+                                                                       <input type="text" class="input form-control form-border" id="2" required autocomplete="off">
+                                                                       <label class="mb-0 form-control-placeholder" for="2">Enter Sterling Bank Account Number</label>
+                                                                       <div class="invalid-feedback"> Sterling Bank Account Number is required</div>
+                                                                   </div>
+                                                            </div>
+                                                               <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Verify My Account</button>
+
+                                                    </div>
+
+                                                    
+
+                                                  
+                                                               <div>
+                                                                    <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Fund Your Account Number </h6>
+                                                                    <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Fund</button>
+                                                               </div>
+
+                                                     </form>
+                                                                
+                                                                <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <form class="blockquote flex-column rounded-sm pt-4 shadow-sm">
+                                                                                <div class="row mt-0 mb-2">
+                                                                                    <h1 class="pl-3 mb-3 lead welcome-title font-weight-bold text-primary">Create a Sterling Account</h1>
+                                                                                    <!-- <p class="text-dark intro-txt p-3">Lorem Ipsum is simply dummy text of the printing and
+                                                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                                                        ever since the 1500s.</p> -->
+                                                                                </div>
+
+                                                                                <div >
+                                                                                        <div>
+                                                                                          <input id="yesCheck" type="checkbox" name="in">
+                                                                                          <label for="yesCheck">I agree to the Terms and Condition</label>
+                                                                                       </div>
+                                                                                          <p class="text-dark intro-txt p-3">By ticking the checkbox you agree to the Terms and Conditions for the Sterling Bank Account Creation. Please <a href="">click here</a> to see full Terms and Conditions</p>
+                                                                                          <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Create Account</button>
+                                                                                     </div>       
+                                
+                                                                                </form>
+                                                                        </div>
                                         </div>
 
                                     </div>
