@@ -6139,7 +6139,7 @@ a.text-gray:hover, a.text-gray:focus {
   color: #d7d4de !important; }
 
 .text-muted {
-  color: #5F839F !important; }
+  color: #888 !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -6327,7 +6327,7 @@ a.text-gray:hover, a.text-gray:focus {
     border-color: transparent; }
     .btn.btn-primary:hover {
       color: #fff;
-      background-color: #314e7c;
+      background-color: #a00065;
       border-color: transparent; }
     .btn.btn-primary:focus, .btn.btn-primary.focus {
       box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
@@ -6338,7 +6338,7 @@ a.text-gray:hover, a.text-gray:focus {
     .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled).active,
     .show > .btn.btn-primary.dropdown-toggle {
       color: #fff;
-      background-color: #314e7c;
+      background-color: #a00065;
       border-color: transparent; }
       .btn.btn-primary:not(:disabled):not(.disabled):active:focus, .btn.btn-primary:not(:disabled):not(.disabled).active:focus,
       .show > .btn.btn-primary.dropdown-toggle:focus {
@@ -6348,7 +6348,7 @@ a.text-gray:hover, a.text-gray:focus {
     .btn.btn-primary:disabled:focus, .btn.btn-primary.disabled:focus {
       box-shadow: none !important; }
     .btn.btn-primary:not(:disabled):not(.disabled):active:focus, .btn.btn-primary:not(:hover):focus {
-      background-color: #314e7c;
+      background-color: #a00065;
       box-shadow: none !important; }
   .btn.btn-outline-primary {
     color: #64003f;
@@ -7478,6 +7478,9 @@ html, body {
 
 .rounded {
   border-radius: 30px !important; }
+
+.rounded-sm {
+  border-radius: 5px !important; }
 
 .datepicker.dropdown-menu {
   background-color: #64003f;
