@@ -4,16 +4,18 @@
     font-size: 8em;
 }
 .fs-12 {font-size: 11px;}
+.fs-15 {font-size: 0.81rem;}
 .table-text {font-size: 0.75rem;}
+.info-alert-gray { background: #f5f4f6; padding: 5px 20px; border: 1px solid #eaeaea; border-radius: 3px;}
 
 /* Background Gradient */
-/* .bg-gradient-lady {
+.bg-gradient-lady {
     background-image: linear-gradient(to bottom, rgba(247, 247, 247, 0.82), rgba(247, 247, 247, 0.82)), url(https://db6ud9d668pjr.cloudfront.net/web/assets/img/no-paper-work.jpg);
     background-position: right top;
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-} */
+}
 
 /* RADIO BUTTON DESIGN */
     .inline-radio {
@@ -43,7 +45,8 @@
         align-items: center;
         justify-content: center;
         pointer-events: none;
-        /* border-right: 1px solid #253c62; */
+        border-right: 1px solid #a00065;
+        font-size: 13px;
     }
     .inline-radio div:last-child label {
         border-right: 0;

@@ -3446,9 +3446,10 @@ tbody.collapse.show {
     color: #2e2e2e; }
 
 .alert-success {
-  color: #044900;
+  color: #fff;
   background-color: #cde8cc;
-  border-color: #badfb8; }
+  /* border-color: #badfb8;  */
+}
   .alert-success hr {
     border-top-color: #a9d7a6; }
   .alert-success .alert-link {
@@ -3473,9 +3474,10 @@ tbody.collapse.show {
     color: #524100; }
 
 .alert-danger {
-  color: #6d0007;
+  color: #fff;
   background-color: #f6cccf;
-  border-color: #f2b8bb; }
+  /* border-color: #f2b8bb;  */
+}
   .alert-danger hr {
     border-top-color: #eea2a6; }
   .alert-danger .alert-link {
@@ -3502,7 +3504,7 @@ tbody.collapse.show {
 .alert-gray {
   color: #7e7d7f;
   background-color: #fcfcfd;
-  border-color: #fbfbfc; }
+  border-color: #e5e5e5; }
   .alert-gray hr {
     border-top-color: #ececf1; }
   .alert-gray .alert-link {

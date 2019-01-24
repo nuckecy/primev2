@@ -107,128 +107,170 @@
                                     <!-- <p class="text-dark intro-txt">Provide Funding Information</p> -->
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <form class="blockquote flex-column rounded-sm pt-4 shadow-sm">
-                                                <div class="row mt-0 mb-2">
-                                                        <h1 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Calculate Investment</h1>
-                                                        <!-- <p class="text-dark intro-txt p-3">Lorem Ipsum is simply dummy text of the printing and
+                                            <div class="blockquote flex-column rounded-sm pt-4 shadow-sm">
+                                                <div class="row mt-0">
+                                                    <h1 class="pl-3 mb-0 lead welcome-title font-weight-bold text-primary">Calculate
+                                                        Investment</h1>
+                                                    <!-- <p class="text-dark intro-txt p-3">Lorem Ipsum is simply dummy text of the printing and
                                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                                                         ever since the 1500s.</p> -->
                                                 </div>
-
+                                                <hr class="mb-4">
                                                 <!-- Alert -->
-                                                <div class="alert alert-primary text-light" role="alert">
-                                                   Hello Israel!, please be informed that your Sterling Bank account should be funded with N12,000.00 to proceed
+                                                <div class="alert alert-gray text-dark font-weight-bold  fs-15" role="alert">
+                                                    Hello Israel!, please be informed that your Sterling Bank account should be funded with N12,000.00 to proceed.
                                                 </div>
 
                                                 <!-- Radio Buttons -->
                                                 <div class="row">
-                                                        <div class="form-group col-md-6 mb-4">
-                                                                <small class="form-text text-muted font-weight-bold mb-2 text-uppercase">Do you have a sterling bank account?</small>
-                                                                <group class="inline-radio">
-                                                                    <div><input type="radio" name="member" checked><label>Yes</label></div>
-                                                                    <div><input type="radio" name="member"><label>No</label></div>
-                                                                </group>                      
-                                                            </div>
-                                                            
-                                                            <div class="form-group col-md-6 mb-4">
-                                                                <small class="form-text text-muted font-weight-bold mb-2 text-uppercase">Is your account funded?</small>
-                                                                <group class="inline-radio">
-                                                                    <div><input type="radio" name="member" checked><label>Yes</label></div>
-                                                                    <div><input type="radio" name="member"><label>No</label></div>
-                                                                </group>
-                                                            </div>
-                                                </div>
+                                                    <div class="form-group col-md-6 mb-4">
+                                                        <small class="form-text text-dark font-weight-bold mb-2 text-uppercase">Do
+                                                            you have a sterling bank account?</small>
+                                                        <group class="inline-radio">
+                                                            <div><input type="radio" name="member"><label>Yes, I have</label></div>
+                                                            <div><input type="radio" name="member"><label>No, I don't
+                                                                    have</label></div>
+                                                        </group>
+                                                    </div>
 
-                                                <h1 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Add a Sterling Account Number</h1>
-                                                 <!-- Alert -->
-                                                 <div class="alert alert-primary text-light " role="alert">
-                                                      <p>Is this Account funded with N12,000.00? <br/> Enter your Funding Account Number and verify</p>   
-                                                 </div>  
-                                                 
-                                                 <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Enter your Funding Account Number </h6>
-                                                 <div class="row mb-3">
-                                                        <div class="form-group col-md-6">
-                                                            <input type="text" class="input form-control form-border" id="1" required autocomplete="off">
-                                                            <label class="mb-0 form-control-placeholder" for="1">Enter your Funding Account Number</label>
-                                                            <div class="invalid-feedback"> Funding Account Number is required</div>
+                                                    <div class="form-group col-md-6 mb-4">
+                                                        <small class="form-text text-dark font-weight-bold mb-2 text-uppercase">Is
+                                                            your account funded with N12,000.00?</small>
+                                                        <group class="inline-radio">
+                                                            <div><input type="radio" name="member1"><label>Yes, it's
+                                                                    funded</label></div>
+                                                            <div><input type="radio" name="member1"><label>No, it's not</label></div>
+                                                        </group>
+                                                    </div>
+                                                </div>
+                                                <hr class="mb-5">
+
+                                                <!-- ADD Account Starts -->
+                                                <div class="acc-open">
+                                                    <h6 class="mb-0 welcome-title font-weight-bold text-dark">Add a
+                                                        Sterling Account Number</h6>
+                                                    <small class="text-dark font-weight-bold intro-txt info-alert-gray">Please
+                                                        provide a Sterling Bank Account that is funded with N12,000.00
+                                                        and click Add Account.</small>
+                                                    <div class="row mt-4 mb-3">
+                                                        <div class="form-group col-md-7 col-sm-12">
+                                                            <input type="text" class="input form-control form-border"
+                                                                id="1" required autocomplete="off">
+                                                            <label class="mb-0 form-control-placeholder" for="1">Enter
+                                                                your Sterling Account Number</label>
+                                                            <div class="invalid-feedback">Sterling Account Number is
+                                                                required</div>
+                                                        </div>
+                                                        <div class="form-group col-md-5 col-sm-12">
+                                                            <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Add
+                                                                Account</button>
                                                         </div>
                                                     </div>
-                                                    <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Verify</button>
+                                                    <hr class="mb-5">
+                                                </div>
+                                                <!-- ADD Account Ends -->
 
-                                                    <div>
-                                                            <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Fund Your Sterling Account </h6>
-                                                            <div class="row mb-3">
-                                                                   <div class="form-group col-md-6">
-                                                                       <input type="text" class="input form-control form-border" id="2" required autocomplete="off">
-                                                                       <label class="mb-0 form-control-placeholder" for="2">Enter Sterling Bank Account Number</label>
-                                                                       <div class="invalid-feedback"> Sterling Bank Account Number is required</div>
-                                                                   </div>
-                                                            </div>
-                                                               <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Verify My Account</button>
-
+                                                <!-- Fund Account Starts -->
+                                                <div class="acc-open">
+                                                    <h6 class="mb-0 welcome-title font-weight-bold text-dark">Fund your Sterling Account</h6>
+                                                    <small class="text-dark font-weight-bold intro-txt info-alert-gray">Please provide a Sterling Bank Account you wish to funded with N12,000.00 and click Fund Account.</small>
+                                                    <div class="row mt-4 mb-3">
+                                                        <!-- Success Alert -->
+                                                        <div class="col-11 pl-3 ml-3 mb-4 alert alert-success" role="alert">
+                                                            <i class="fa fa-check-circle fa-lg" aria-hidden="true"></i> Thank you! Your Account Funded Successfully.
+                                                        </div>
+                                                        <!-- Success Alert End -->
+                                                        <!-- Failed Alert -->
+                                                        <div class="col-11 pl-3 ml-3 mb-4 alert alert-danger" role="alert">
+                                                            <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Sorry! You don't have Sufficient Funds.
+                                                        </div>
+                                                        <!-- Failed Alert End -->
+                                                        <div class="form-group col-md-7 col-sm-12">
+                                                            <input type="text" class="input form-control form-border" id="1" required autocomplete="off">
+                                                            <label class="mb-0 form-control-placeholder" for="1">Enter your Sterling Account Number</label>
+                                                            <div class="invalid-feedback">Sterling Account Number is required</div>
+                                                        </div>
+                                                        <div class="form-group col-md-5 col-sm-12">
+                                                            <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Fund Account</button>
+                                                        </div>
                                                     </div>
+                                                    <hr class="mb-5">
+                                                </div>
+                                                <!-- Fund Account Ends -->
 
-                                                    
+                                                <!-- CREATE Account Starts -->
+                                                <div class="acc-open">
+                                                    <h6 class="mb-0 welcome-title font-weight-bold text-dark mb-2">Create a New Sterling Account</h6>
+                                                    <div class="alert alert-gray text-dark font-weight-bold fs-15" role="alert">
+                                                        Hello Otobong, we can create a new Sterling Bank Account for you instantly. To proceed, please accept the Terms &amp; Conditions, thank you.
+                                                    </div>
+                                                    <div class="m-1 mt-4 mb-5">
+                                                        <div>
+                                                            <input id="yesCheck" type="checkbox" class="mr-2" name="in">
+                                                            <label for="yesCheck" class="text-dark font-weight-bold fs-15">I agree to the Terms and Condition</label>
+                                                        </div>
+                                                        <p class="text-dark intro-txt fs-15 mx-4">By ticking the checkbox you agree to the Terms and Conditions for the Sterling
+                                                            Bank Account Creation. Please <a href="">click here</a> to see full Terms and Conditions.</p>
+                                                        <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Create Account</button>
+                                                    </div>
+                                                </div>
+                                                <!-- CREATE Account Ends -->
 
-                                                  
-                                                               <div>
-                                                                    <h6 class="pl-4 mb-3 lead welcome-title font-weight-bold text-primary">Fund Your Account Number </h6>
-                                                                    <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Fund</button>
-                                                               </div>
+                                                <!-- New Account Alert Starts -->
+                                                <div class="acc-message">
+                                                    <h6 class="mb-0 welcome-title font-weight-bold text-dark">Sterling Account Creation</h6>
+                                                    <div class="row mt-4 mb-3">
+                                                        <!-- Success Alert -->
+                                                        <div class="col-11 pl-3 ml-3 mb-3 alert alert-success" role="alert">
+                                                            <i class="fa fa-check-circle fa-lg" aria-hidden="true"></i> Congratulations! Your Account Creation was Successful.
+                                                        </div>
+                                                        <!-- Success Alert End -->
+                                                        <!-- Failed Alert -->
+                                                        <div class="col-11 pl-3 ml-3 mb-3 alert alert-danger" role="alert">
+                                                            <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Sorry! We could not create an Account, please try again.
+                                                        </div>
+                                                        <!-- Failed Alert End -->
+                                                        <div class="m-3 mb-3">
+                                                            <p class="text-dark intro-txt fs-15 px-5 text-justify">
+                                                                <!-- Add Name here-->
+                                                                <span class="font-weight-bold">Dear Fortune,</span><br><br>
+                                                                Congratulations! You now have a Sterling Bank Account with number: <b>00012345678</b>. <br><br>To complete your documentation please click here to upload your Means of Identification, Utility Bill &amp; recent Passport Photograph. You can visit your profile page to upload the documents. Thank you.
+                                                            </p>
+                                                            <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Create Account</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- New Account Alert Ends -->
+                                            </div>
 
-                                                     </form>
-                                                                
-                                                                <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <form class="blockquote flex-column rounded-sm pt-4 shadow-sm">
-                                                                                <div class="row mt-0 mb-2">
-                                                                                    <h1 class="pl-3 mb-3 lead welcome-title font-weight-bold text-primary">Create a Sterling Account</h1>
-                                                                                    <!-- <p class="text-dark intro-txt p-3">Lorem Ipsum is simply dummy text of the printing and
-                                                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                                                        ever since the 1500s.</p> -->
-                                                                                </div>
-
-                                                                                <div >
-                                                                                        <div>
-                                                                                          <input id="yesCheck" type="checkbox" name="in">
-                                                                                          <label for="yesCheck">I agree to the Terms and Condition</label>
-                                                                                       </div>
-                                                                                          <p class="text-dark intro-txt p-3">By ticking the checkbox you agree to the Terms and Conditions for the Sterling Bank Account Creation. Please <a href="">click here</a> to see full Terms and Conditions</p>
-                                                                                          <button type="submit" value="submit" class="btn btn-sm btn-primary btn-block mb-3">Create Account</button>
-                                                                                     </div>       
-                                
-                                                                                </form>
-                                                                        </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css">
-    <script src="https://d32wlusbkxfia2.cloudfront.net/v2/assets/js/parallax.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            type="text/css">
+        <script src="https://d32wlusbkxfia2.cloudfront.net/v2/assets/js/parallax.js"></script>
 
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="popover"]').popover();
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
 </body>
 
 </html>
