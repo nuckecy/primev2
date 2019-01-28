@@ -3,6 +3,7 @@
   .main { padding: 25px; margin: -80px auto;}
   .w-10 { width: 40% !important; }
   .login-box, .forgot-box {margin: 10px;}
+  .info-alert-gray { background:none; padding: 0px; border: none;}
 
   /* Name - Welcome */
   .welcome-title {font-size: 1.6rem; font-weight: 400;}
