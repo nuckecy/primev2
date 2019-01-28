@@ -57,18 +57,18 @@
     <div class="py-2 mb-5">
         <div class="container">
             <div class="row ml-1">
-                <div class="col-md-3 bg-light py-3 shadow-sm">
-                    <div>
+                <div class="col-md-3">
+                    <div class="bg-light shadow-sm p-3 rounded-sm">
                         <ul class="list-group">
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Dashboard<br><i class="fa fa-home fa-lg"></i></li></a>
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Cash Option<br><i class="fa fa-money fa-lg"></i></li></a>
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Card Option<br><i class="fa fa-cc-visa fa-lg"></i></li></a>
-                            <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Investment Option<br><i class="fa fa-pagelines fa-lg"></i></li></a>
-                            <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Backup Option<br><i class="fa fa-users fa-lg"></i></li></a>
-                            <hr class="mb-2">                
-                            <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Prime FAQ<br><i class="fa fa-book fa-lg"></i></li></a>
-                            <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Change Password<br><i class="fa fa-cog fa-lg"></i></li></a>
-                            <a href="login.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase"> Log Out <i class="fa fa-sign-out fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Dashboard<br><i class="fa fa-home fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Cash Option<br><i class="fa fa-money fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Card Option<br><i class="fa fa-cc-visa fa-lg"></i></li></a>
+                        <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Existing Investment<br><i class="fa fa-pagelines fa-lg"></i></li></a>
+                        <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Backup Option<br><i class="fa fa-users fa-lg"></i></li></a>
+                        <hr class="mb-2">                
+                        <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Prime FAQ<br><i class="fa fa-book fa-lg"></i></li></a>
+                        <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Change Password<br><i class="fa fa-cog fa-lg"></i></li></a>
+                        <a href="login.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase"> Log Out <i class="fa fa-sign-out fa-lg"></i></li></a>
                         </ul>
                     </div>
                 </div>
@@ -101,24 +101,21 @@
                                                     <div class="form-group col-md-6">
                                                         <input type="text" class="input form-control form-border" id="1" required autocomplete="off">
                                                         <label class="mb-0 form-control-placeholder text-capitalize" for="1">First Name</label>
-                                                        <div class="invalid-feedback"> First Name</div>
+                                                        <div class="invalid-feedback"> First Name is required</div>
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <input type="text" class="input form-control form-border" id="2"
                                                             required autocomplete="off">
                                                         <label class="mb-0 form-control-placeholder" for="2">Surname</label>
-                                                        <div class="invalid-feedback"> Surname
-                                                        </div>
+                                                        <div class="invalid-feedback"> Surname is required</div>
                                                     </div>
                                                 </div>
                                                 <div class="row mb-1">
                                                         <div class="form-group col-md-12">
-                                                                <input type="text" class="input form-control form-border" id="2"
-                                                                    required autocomplete="off">
-                                                                <label class="mb-0 form-control-placeholder" for="2">Relationship with Account Holder</label>
-                                                                <div class="invalid-feedback"> Surname
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" class="input form-control form-border" id="2" required autocomplete="off">
+                                                            <label class="mb-0 form-control-placeholder" for="2">Relationship with Account Holder</label>
+                                                            <div class="invalid-feedback"> Relationship is required</div>
+                                                        </div>
                                                 </div>
                                                 <button type="submit" value="Submit" class="btn btn-sm btn-primary btn-block mb-3">Next</button>
                                                 <button type="reset" value="Submit" class="btn btn-sm btn-outline-gray btn-block mb-3 text-dark">Skip</button>

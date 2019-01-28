@@ -57,18 +57,18 @@
     <div class="py-2 mb-5">
         <div class="container">
             <div class="row ml-1">
-                <div class="col-md-3 bg-light py-3 shadow-sm">
-                    <div>
+                <div class="col-md-3">
+                    <div class="bg-light shadow-sm p-3 rounded-sm">
                         <ul class="list-group">
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Dashboard<br><i class="fa fa-home fa-lg"></i></li></a>
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Cash Option<br><i class="fa fa-money fa-lg"></i></li></a>
-                            <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Card Option<br><i class="fa fa-cc-visa fa-lg"></i></li></a>
-                            <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Investment Option<br><i class="fa fa-pagelines fa-lg"></i></li></a>
-                            <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Backup Option<br><i class="fa fa-users fa-lg"></i></li></a>
-                            <hr class="mb-2">                
-                            <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Prime FAQ<br><i class="fa fa-book fa-lg"></i></li></a>
-                            <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Change Password<br><i class="fa fa-cog fa-lg"></i></li></a>
-                            <a href="login.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase"> Log Out <i class="fa fa-sign-out fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Dashboard<br><i class="fa fa-home fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Cash Option<br><i class="fa fa-money fa-lg"></i></li></a>
+                        <a href="#" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Card Option<br><i class="fa fa-cc-visa fa-lg"></i></li></a>
+                        <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Existing Investment<br><i class="fa fa-pagelines fa-lg"></i></li></a>
+                        <a href="3" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Backup Option<br><i class="fa fa-users fa-lg"></i></li></a>
+                        <hr class="mb-2">                
+                        <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Prime FAQ<br><i class="fa fa-book fa-lg"></i></li></a>
+                        <a href="settings.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase">Change Password<br><i class="fa fa-cog fa-lg"></i></li></a>
+                        <a href="login.html" class="text-dark"><li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center text-uppercase"> Log Out <i class="fa fa-sign-out fa-lg"></i></li></a>
                         </ul>
                     </div>
                 </div>
@@ -80,117 +80,107 @@
                                     <h4 class="m-0">Card Option</h4>
                                 </div>
                                 <div class="p-4">
-                                    <!-- <p class="text-dark intro-txt">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s.</p> -->
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <form class="blockquote flex-column rounded-sm pt-4 shadow-sm">
-                                                <div class="row mt-0 mb-2">
-                                                    <h1 class="pl-3 mb-3 lead welcome-title font-weight-bold text-primary">Invest and Take A Loan </h1>
-                                                    <!-- <p class="text-dark intro-txt p-3">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s.</p> -->
-                                                </div>
-                                                
-                                                <div class="row mb-1">
-                                                    <!-- Accomodation Type -->
-                                                   
-                                                    <div class="form-group col-md-6 mb-3">
-                                                     <h6 class="font-weight-bold fs-15">What is your current accomodation type? </h6>
-                                                        <div class="select">
-                                                            <select class="select-text" required>
-                                                                <option value="" disabled selected></option>
-                                                                <option value="1">Owner</option>
-                                                                <option value="2">Rent</option>
-                                                                <option value="3">Lease</option>
-                                                                <option value="4">Other</option>
-                                                            </select>
-                                                            <span class="select-highlight"></span>
-                                                            <span class="select-bar"></span>
-                                                            <label class="select-label">Accomodation Type</label>
+                                                <form class="blockquote flex-column rounded-sm pt-4 shadow-sm">
+                                                        <div class="row mt-0 mb-2">
+                                                            <h1 class="pl-3 mb-3 lead welcome-title font-weight-bold text-primary">Invest and Take A Loan </h1>
                                                         </div>
                                                         
-                                                    </div>
-                                                    
-
-                                                    <!-- Job Information -->
-                                                    <div class="form-group col-md-6">
-                                                            <h6 class="font-weight-bold fs-15">How many job changes within 5 years? </h6>
-                                                        <div class="select">
-                                                            <select class="select-text" required>
-                                                                <option value="" disabled selected></option>
-                                                                <option value="0">0</option>
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4+</option>
-                                                            </select>
-                                                            <span class="select-highlight"></span>
-                                                            <span class="select-bar"></span>
-                                                            <label class="select-label">Job Information</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Marital Information -->
-                                                <div class="row mb-1">
-                                                        <div class="form-group col-md-6 mb-3">
-                                                          <h6 class="font-weight-bold fs-15">Please what is your marital status? </h6>
-                                                            <div class="select">
-                                                                <select class="select-text" required>
-                                                                    <option value="" disabled selected></option>
-                                                                    <option value="1">Single</option>
-                                                                    <option value="2">Married</option>
-                                                                    <option value="3">Divorced</option>
-                                                                    <option value="4">Widow</option>
-                                                                    <option value="5">Widower</option>
-                                                                </select>
-                                                                <span class="select-highlight"></span>
-                                                                <span class="select-bar"></span>
-                                                                <label class="select-label">Marital Information</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <h6 class="font-weight-bold fs-15">Number of family dependencies? </h6>
-                                                            <div class="select">
-                                                                <select class="select-text" required>
-                                                                    <option value="" disabled selected></option>
-                                                                    <option value="1">0-5</option>
-                                                                    <option value="2">5-10</option>
-                                                                    <option value="3">10-15</option>
-                                                                    <option value="4">15+</option>
-                                                                </select>
-                                                                <span class="select-highlight"></span>
-                                                                <span class="select-bar"></span>
-                                                                <label class="select-label">Family Dependencies</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- Residence Information-->
-                                                    <div class="row mb-1">
-                                                            <div class="form-group col-md-12 mb-3">
-                                                             <h6 class="font-weight-bold fs-15">How long have you lived at your current residence ? </h6>
+                                                        <div class="row mb-1">
+                                                            <!-- Accomodation Type -->
+                                                            <div class="form-group col-md-6 mb-3">
+                                                             <h6 class="font-weight-bold fs-15 mb-0">What is your current accomodation type? </h6>
                                                                 <div class="select">
                                                                     <select class="select-text" required>
                                                                         <option value="" disabled selected></option>
-                                                                        <option value="1">1-5 years</option>
-                                                                        <option value="2">5-7 years</option>
-                                                                        <option value="3">7-10 years</option>
-                                                                        <option value="4">10+ years</option>                                                                                                                                        </select>
+                                                                        <option value="1">Owner</option>
+                                                                        <option value="2">Rent</option>
+                                                                        <option value="3">Lease</option>
+                                                                        <option value="4">Other</option>
+                                                                    </select>
                                                                     <span class="select-highlight"></span>
                                                                     <span class="select-bar"></span>
-                                                                    <label class="select-label">Residence Information</label>
                                                                 </div>
                                                             </div>
-                                                           
+        
+                                                            <!-- Job Information -->
+                                                            <div class="form-group col-md-6">
+                                                                    <h6 class="font-weight-bold fs-15 mb-0">How many job changes within 5 years? </h6>
+                                                                <div class="select">
+                                                                    <select class="select-text" required>
+                                                                        <option value="" disabled selected></option>
+                                                                        <option value="0">0</option>
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4+</option>
+                                                                    </select>
+                                                                    <span class="select-highlight"></span>
+                                                                    <span class="select-bar"></span>
+                                                                    <!-- <label class="select-label">Job Information</label> -->
+                                                                </div>
+                                                            </div>
                                                         </div>
-
-
-                                                <button type="submit" value="Submit" class="btn btn-sm btn-primary btn-primary mb-3">Continue</button>
-                                                
-                                            </form>
+        
+                                                        <!-- Marital Information -->
+                                                        <div class="row mb-1">
+                                                                <div class="form-group col-md-6 mb-3">
+                                                                  <h6 class="font-weight-bold fs-15 mb-0">Please what is your marital status? </h6>
+                                                                    <div class="select">
+                                                                        <select class="select-text" required>
+                                                                            <option value="" disabled selected></option>
+                                                                            <option value="1">Single</option>
+                                                                            <option value="2">Married</option>
+                                                                            <option value="3">Divorced</option>
+                                                                            <option value="4">Widow</option>
+                                                                            <option value="5">Widower</option>
+                                                                        </select>
+                                                                        <span class="select-highlight"></span>
+                                                                        <span class="select-bar"></span>
+                                                                        <!-- <label class="select-label">Marital Information</label> -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <h6 class="font-weight-bold fs-15 mb-0">Number of family dependencies? </h6>
+                                                                    <div class="select">
+                                                                        <select class="select-text" required>
+                                                                            <option value="" disabled selected></option>
+                                                                            <option value="1">0-5</option>
+                                                                            <option value="2">5-10</option>
+                                                                            <option value="3">10-15</option>
+                                                                            <option value="4">15+</option>
+                                                                        </select>
+                                                                        <span class="select-highlight"></span>
+                                                                        <span class="select-bar"></span>
+                                                                        <!-- <label class="select-label">Family Dependencies</label> -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+        
+                                                            <!-- Residence Information-->
+                                                            <div class="row mb-1">
+                                                                    <div class="form-group col-md-12 mb-3">
+                                                                     <h6 class="font-weight-bold fs-15 mb-0">How long have you lived at your current residence ? </h6>
+                                                                        <div class="select">
+                                                                            <select class="select-text" required>
+                                                                                <option value="" disabled selected></option>
+                                                                                <option value="1">1-5 years</option>
+                                                                                <option value="2">5-7 years</option>
+                                                                                <option value="3">7-10 years</option>
+                                                                                <option value="4">10+ years</option>                                                                                                                                        </select>
+                                                                            <span class="select-highlight"></span>
+                                                                            <span class="select-bar"></span>
+                                                                            <!-- <label class="select-label">Residence Information</label> -->
+                                                                        </div>
+                                                                    </div>
+                                                                   
+                                                                </div>
+        
+        
+                                                        <button type="submit" value="Submit" class="btn btn-sm btn-block btn-primary mb-3">Continue</button>
+                                                        
+                                                    </form>
                                         </div>
                                                                              
                                     </div>
