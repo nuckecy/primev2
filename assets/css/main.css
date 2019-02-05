@@ -200,7 +200,8 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: .5rem; }
+  margin-bottom: .2rem !important; 
+}
 
 button {
   border-radius: 0; }
@@ -4999,6 +5000,9 @@ button.bg-gray:focus {
 
 .w-10 {
   width: 10% !important; }
+
+.w-15 {
+  width: 15% !important; }
 
 .w-25 {
   width: 25% !important; }
