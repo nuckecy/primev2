@@ -1,6 +1,8 @@
 @media only screen and (max-width: 600px) {
-  .nav {visibility: collapse;}
-  .main { padding: 25px; margin: -80px auto;}
+  .nav { padding: 45px; margin: -80px auto; width: 100%;}
+  .main {visibility: collapse;}
+  .nav-reg {padding: 45px; margin: 0px auto; width: 100%;}
+  .main-reg {visibility: collapse;}
   .w-10 { width: 40% !important; }
   .login-box, .forgot-box {margin: 10px;}
   .info-alert-gray { background:none; padding: 0px; border: none;}
