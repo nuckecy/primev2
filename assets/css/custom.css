@@ -194,13 +194,14 @@
   }
   
   .form-control-placeholder {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     padding: 0px;
     transition: all 200ms;
     opacity: 0.6;
-    color: #64003f;
-    margin-top: 10px !important;
+    margin-top: 10px !important; */
+    font-size: 12px;
+    color: #999;
   }
   .form-control-placeholder input { color: #64003f !important}
 
@@ -208,10 +209,10 @@
   
   .form-control:focus + .form-control-placeholder,
   .form-control:valid + .form-control-placeholder {
-    font-size: 75%;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+    /* -webkit-transform: translate3d(0, -100%, 0); */
+    /* transform: translate3d(0, -100%, 0); */
     opacity: 1;
+    color: #64003f;
   }
 
 /* Change Autocomplete styles in Chrome*/
@@ -282,7 +283,7 @@ select:-webkit-autofill:focus {
   
   /* LABEL ======================================= */
   .select-label {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     padding: 0px;
     transition: all 200ms;
@@ -293,8 +294,8 @@ select:-webkit-autofill:focus {
   /* active state */
   .select-text:focus ~ .select-label, .select-text:valid ~ .select-label {
     font-size: 75%;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+    /* -webkit-transform: translate3d(0, -100%, 0); */
+    /* transform: translate3d(0, -100%, 0); */
     opacity: 1;
   }
   
